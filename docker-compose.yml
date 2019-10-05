@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php74:
+    image: phpearth/php:7.4-cli
+    volumes:
+      - .:/code
+    working_dir: /code
+
